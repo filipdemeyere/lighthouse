@@ -33,7 +33,7 @@
         },
         {
           "principalId": "93b18d27-f686-44b4-af90-85ad91ee8a4d",
-          "roleDefinitionId": "f58310d9-a9f6-439a-9e8d-f62e7b41a168",
+          "roleDefinitionId": "18d7d88d-d35e-4fb5-a5c3-7773c20a72d9",
           "principalIdDisplayName": "CCE Admin Agents - Delegated IAM",
           "delegatedRoleDefinitionIds": [
             "b24988ac-6180-42a0-ab88-20f7382dd24c",
