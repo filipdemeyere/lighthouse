@@ -30,10 +30,19 @@
           "principalId": "93b18d27-f686-44b4-af90-85ad91ee8a4d",
           "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c",
           "principalIdDisplayName": "CCE Admin Agents"
+        },
+        {
+          "principalId": "93b18d27-f686-44b4-af90-85ad91ee8a4d",
+          "roleDefinitionId": "f58310d9-a9f6-439a-9e8d-f62e7b41a168",
+          "principalIdDisplayName": "CCE Admin Agents - Delegated IAM",
+          "delegatedRoleDefinitionIds": [
+            "b24988ac-6180-42a0-ab88-20f7382dd24c",
+            "acdd72a7-3385-48ef-bd42-f606fba81ae7"
+          ]
         }
       ],
       "metadata": {
-        "description": "Specify an array of objects, containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName. The roleDefinition specified is granted to the principalId in the provider's Active Directory and the principalIdDisplayName is visible to customers."
+        "description": "Specify an array of objects containing tuples of Azure Active Directory principalId, a Azure roleDefinitionId, and an optional principalIdDisplayName."
       }
     }
   },
